@@ -1,57 +1,71 @@
 # Autopilot-Test-Automation-Framework
 Navigate testing with precision and speed.
 
-🧭 Overview
+# 🚀 Autopilot
 
-Autopilot is a powerful test automation framework designed to streamline end-to-end web application testing. It empowers QA engineers and developers to automate test execution, manage test suites efficiently, and generate detailed reports — all while maintaining clarity, speed, and reliability.
+Navigate testing with precision and speed.
 
-The framework is structured using Selenium WebDriver for browser automation, TestNG for test orchestration, and Maven for dependency management. It integrates Apache POI to handle data-driven testing through Excel files, enabling robust and scalable test design.
+# 🧭 Overview
 
-🧰 Tech Stack & Tools
+Autopilot is a robust test automation framework built to streamline end-to-end web application testing. It empowers QA engineers and developers to:
 
-Programming Language: Java
+Automate test execution with precision
 
-Automation Framework: Selenium WebDriver
+Manage complex test suites effortlessly
 
-Testing Framework: TestNG
+Generate detailed, real-time reports
 
-Build Tool: Apache Maven
+The framework leverages Selenium WebDriver for browser automation, TestNG for test orchestration, and Maven for dependency management. It also integrates Apache POI for Excel-based data handling, enabling data-driven testing that scales easily across environments.
 
-Data Handling: Apache POI (Excel integration)
+# 🧰 Tech Stack & Tools
+Category	Tools
+Language	Java
+Automation	Selenium WebDriver
+Testing Framework	TestNG
+Build Tool	Apache Maven
+Data Handling	Apache POI (Excel integration)
+Reporting	TestNG HTML, XML, Emailable Reports
+Execution	TestNG Suite XML (test.xml)
+IDE	IntelliJ IDEA, Eclipse
 
-Reporting: TestNG HTML, XML, and Emailable Reports
+# 🎯 Key Features
 
-Test Execution: TestNG Suite XML (test.xml)
+✅ Modular test structure with reusable components
+✅ Data-driven testing using Excel sheets
+✅ Parallel and grouped test execution
+✅ Real-time HTML/XML reporting and analytics
+✅ Scalable design for CI/CD pipeline integration
 
-IDE Compatibility: IntelliJ IDEA, Eclipse
+# 🧪 How to Run
 
-🎯 Key Features
+Clone the repository:
 
-Modular test structure with reusable components
+# git clone https://github.com/your-username/autopilot.git
 
-Data-driven testing using Excel sheets
 
-Parallel and grouped test execution
+Open the project in IntelliJ IDEA or Eclipse
 
-Real-time reporting and detailed test summaries
+Install dependencies using Maven:
 
-Scalable for CI/CD integration
+# mvn clean install
 
-Would you like me to also write a 1-paragraph description you can paste into your README.md or a project summary slide version for a class or portfolio?
 
-You said:
-Use this structure to write for this project-
+Execute test suites:
 
-HealthLink - Virtual Healthcare Management System | SQL, Python Tkinter, PowerBI | Git
-• Built a Healthcare Management System that enhanced remote care delivery and reduced scheduling errors by 40% through
-MySQL database, interactive GUI, and Power BI Data Visualization for real-time patient and prescription insights.
-ChatGPT said:
+# mvn test
 
-Here’s your project written in the same structure and tone:
+# 📊 Reports
 
-Autopilot – Test Automation Framework | Java, Selenium, TestNG, Apache POI, Maven | Git
-• Built a scalable test automation framework that improved web testing efficiency by 50% through modular Selenium scripts, TestNG suite orchestration, and Apache POI–driven data handling, enabling seamless regression testing and real-time HTML/XML reporting.
+HTML Reports: Generated automatically under /test-output/
 
-Is this conversation helpful so far?
+Emailable Reports: Summarized test results
 
-ChatGPT can make mistakes. Check important info.
+XML Reports: For integration with CI tools
+
+# 🌟 Future Enhancements
+
+Integrate with Jenkins for CI/CD
+
+Add Allure Reporting for richer insights
+
+Extend cross-browser testing support
