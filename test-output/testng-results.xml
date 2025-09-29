@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T15:41:45Z" name="test" finished-at="2023-11-16T15:44:49Z" duration-ms="184367">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T15:41:45Z" name="Scenario 1" finished-at="2023-11-16T15:43:00Z" duration-ms="74992">
+      <class name="org.example.ScenarioOne">
+        <test-method signature="launch()[pri:0, instance:org.example.ScenarioOne@17d677df]" started-at="2023-11-16T10:41:45Z" name="launch" finished-at="2023-11-16T10:43:00Z" duration-ms="74982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- org.example.ScenarioOne -->
+    </test> <!-- Scenario 1 -->
+    <test started-at="2023-11-16T15:43:00Z" name="Scenario 2" finished-at="2023-11-16T15:43:30Z" duration-ms="30018">
+      <class name="org.example.ScenarioTwo">
+        <test-method signature="launch()[pri:0, instance:org.example.ScenarioTwo@3e57cd70]" started-at="2023-11-16T10:43:00Z" name="launch" finished-at="2023-11-16T10:43:30Z" duration-ms="30017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- org.example.ScenarioTwo -->
+    </test> <!-- Scenario 2 -->
+    <test started-at="2023-11-16T15:43:30Z" name="Scenario 3" finished-at="2023-11-16T15:43:57Z" duration-ms="27253">
+      <class name="org.example.ScenarioThree">
+        <test-method signature="launch()[pri:0, instance:org.example.ScenarioThree@58c1670b]" started-at="2023-11-16T10:43:30Z" name="launch" finished-at="2023-11-16T10:43:57Z" duration-ms="27252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- org.example.ScenarioThree -->
+    </test> <!-- Scenario 3 -->
+    <test started-at="2023-11-16T15:43:57Z" name="Scenario 4" finished-at="2023-11-16T15:44:08Z" duration-ms="11018">
+      <class name="org.example.ScenarioFour">
+        <test-method signature="launch()[pri:0, instance:org.example.ScenarioFour@38bc8ab5]" started-at="2023-11-16T10:43:57Z" name="launch" finished-at="2023-11-16T10:44:08Z" duration-ms="11018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- org.example.ScenarioFour -->
+    </test> <!-- Scenario 4 -->
+    <test started-at="2023-11-16T15:44:08Z" name="Scenario 5" finished-at="2023-11-16T15:44:49Z" duration-ms="41085">
+      <class name="org.example.ScenarioFive">
+        <test-method signature="launch()[pri:0, instance:org.example.ScenarioFive@26a7b76d]" started-at="2023-11-16T10:44:08Z" name="launch" finished-at="2023-11-16T10:44:49Z" duration-ms="41085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- org.example.ScenarioFive -->
+    </test> <!-- Scenario 5 -->
+  </suite> <!-- test -->
+</testng-results>
