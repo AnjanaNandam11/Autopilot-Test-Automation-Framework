@@ -1,6 +1,3 @@
-# Autopilot-Test-Automation-Framework
-Navigate testing with precision and speed.
-
 # 🚀 Autopilot
 
 Navigate testing with precision and speed.
