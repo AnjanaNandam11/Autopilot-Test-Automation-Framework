@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test">
+    <test name="Scenario 1">
+        <classes>
+            <class name="org.example.ScenarioOneTest"/>
+        </classes>
+    </test>
+    <test name="Scenario 2">
+        <classes>
+            <class name="org.example.ScenarioTwoTest"/>
+        </classes>
+    </test>
+    <test name="Scenario 3">
+        <classes>
+            <class name="org.example.ScenarioThreeTest"/>
+        </classes>
+    </test>
+    <test name="Scenario 4">
+        <classes>
+            <class name="org.example.ScenarioFourTest"/>
+        </classes>
+    </test>
+    <test name="Scenario 5">
+        <classes>
+            <class name="org.example.ScenarioFiveTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+        <listener class-name="org.testng.reporters.jq.Main"/>
+    </listeners>
+    <!-- Add more <test> sections for additional test classes -->
+</suite>
